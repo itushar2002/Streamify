@@ -1,0 +1,28 @@
+.suggestedVideo {
+  flex-basis: 29%;
+  
+}
+.suggested-video-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.suggested-video-list img {
+  flex-basis: 49%;
+  width: 50%;
+}
+.video-details {
+    flex-basis: 49%;
+}
+.video-details h4 {
+    font-size: 14px;
+    margin-bottom: 5px;
+   
+}
+
+@media (max-width: 900px) {
+  .suggestedVideo {
+    flex-basis: 100%;
+  }
+}

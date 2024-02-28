@@ -1,0 +1,26 @@
+.video-container {
+  padding-left: 17%;
+  padding-right: 3%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: #fefefe;
+}
+
+.large-video-container {
+  padding-left: 5% !important;
+  padding-right: 3%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: #fefefe;
+}
+@media (max-width: 900px) {
+  .large-video-container  {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  .video-container {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+
+}
